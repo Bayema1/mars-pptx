@@ -3,26 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "Qu%mqhSq1~k=jEcSU^O,":
-            case "Bayemalick":return img`
-. . . . . 1 1 1 1 1 1 . . . . . 
-. . . . . . e e e 1 1 . . . . . 
-. . . . . . e f e e 1 . . . . . 
-. . . . . . e e e e 1 . . . . . 
-. . . . . . e e e 1 1 . . . . . 
-. . . . . 1 1 1 1 1 1 . . . . . 
-. . . . . . 1 2 2 1 2 2 . . . . 
-. . . . . . 2 2 2 1 2 2 . . . . 
-. . . . . 2 2 2 1 1 2 2 . . . . 
-. . . . 2 2 2 1 1 1 2 2 . . . . 
-. . . . 2 2 1 1 1 1 2 2 . . . . 
-. . . . . . 1 1 1 1 . . . . . . 
-. . . . . . . 1 1 . . . . . . . 
-. . . . . . . 1 1 . . . . . . . 
-. . . . . . . 1 1 . . . . . . . 
-. . . . . . . 1 1 . . . . . . . 
-. . . . . . . 1 1 . . . . . . . 
-`;
             case "BUHVbG6%kRV_;t{OYPv7":
             case "nuit":return img`
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
@@ -160,6 +140,44 @@ f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 c c c . . .
 . f 1 1 1 1 1 1 1 1 1 1 1 f 1 1 1 1 1 1 c . . . 
 b . f f 1 1 1 1 1 1 1 f f f f 1 1 1 1 1 c . . . 
 . . . . f f f f f f f . . . . f c c c c . . . . 
+`;
+            case "Qu%mqhSq1~k=jEcSU^O,":
+            case "Bayemalick":return img`
+. 1 1 1 1 1 1 . 
+. . e e e 1 1 . 
+. . e f e e 1 . 
+. . e e e e 1 . 
+. . e e e 1 1 . 
+. 1 1 1 1 1 1 . 
+. . 1 2 2 1 2 2 
+. . 2 2 2 1 2 2 
+. 2 2 2 1 1 2 2 
+2 2 2 1 1 1 2 2 
+2 2 1 1 1 1 2 2 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
+`;
+            case "image1":
+            case "Diana":return img`
+. 1 1 1 1 1 1 . 
+. . d d d 1 1 . 
+. . d f d d 1 . 
+. . d d d d 1 . 
+. . d d d 1 1 . 
+. 1 1 1 1 1 1 . 
+. . 1 2 2 1 2 2 
+. . 2 2 2 1 2 2 
+. 2 2 2 1 1 2 2 
+2 2 2 1 1 1 2 2 
+2 2 1 1 1 1 2 2 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
+. . . 1 1 . . . 
 `;
         }
         return null;

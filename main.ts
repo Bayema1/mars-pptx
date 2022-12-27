@@ -1,3 +1,15 @@
+namespace SpriteKind {
+    export const amis = SpriteKind.create()
+}
 scene.setBackgroundImage(assets.image`nuit`)
 tiles.setCurrentTilemap(tilemap`navette`)
 let Bayemalick = sprites.create(assets.image`Bayemalick`, SpriteKind.Player)
+tiles.placeOnRandomTile(Bayemalick, assets.tile`myTile11`)
+let Diana = sprites.create(assets.image`Diana`, SpriteKind.amis)
+tiles.placeOnRandomTile(Diana, assets.tile`myTile9`)
+scene.cameraFollowSprite(Bayemalick)
+controller.moveSprite(Bayemalick)
+story.spriteSayText(Bayemalick, "Euuuh, Diana on part dans 10 min.")
+story.spriteSayText(Diana, "Oui oui, j'arrive !")
+pause(1000)
+Diana.follow(Bayemalick, 50)

@@ -126,21 +126,6 @@ ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
 `;
-            case "zq-052t8zwV({m/$cwq+":
-            case "wii":return img`
-. . . f f f f f f . . . . . . . . . . c c c . . 
-. . . f f 1 1 1 1 f f . . . . . . . c 1 1 f . . 
-. . . . f f f 1 1 1 1 f f f . . . c 1 1 1 f . . 
-. . . . c c 1 1 1 1 1 1 1 1 c c c 1 1 1 1 f . . 
-. . . c 9 9 b b b b 1 1 1 1 1 1 c c 1 1 f c . . 
-. . c 9 9 9 9 9 9 b 1 1 1 1 1 1 1 1 1 1 1 1 c . 
-. c 1 b b b b b b b 1 1 1 c c c c c c c 1 1 1 f 
-f 1 1 1 1 1 1 1 1 1 1 1 c 1 1 1 c c c f f f f f 
-f 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 c c c . . . 
-. f 1 1 1 1 1 1 1 1 1 1 1 f 1 1 1 1 1 1 c . . . 
-b . f f 1 1 1 1 1 1 1 f f f f 1 1 1 1 1 c . . . 
-. . . . f f f f f f f . . . . f c c c c . . . . 
-`;
             case "Qu%mqhSq1~k=jEcSU^O,":
             case "Bayemalick":return img`
 . 1 1 1 1 1 1 . 
@@ -178,6 +163,21 @@ b . f f 1 1 1 1 1 1 1 f f f f 1 1 1 1 1 c . . .
 . . . 1 1 . . . 
 . . . 1 1 . . . 
 . . . 1 1 . . . 
+`;
+            case "zq-052t8zwV({m/$cwq+":
+            case "wii":return img`
+. . c c c . . . . . . . . . . f f f f f f . . . 
+. . f 1 1 c . . . . . . . f f 1 1 1 1 f f . . . 
+. . f 1 1 1 c . . . f f f 1 1 1 1 f f f . . . . 
+. . f 1 1 1 1 c c c 1 1 1 1 1 1 1 1 c c . . . . 
+. . c f 1 1 c c 1 1 1 1 1 1 b b b b 9 9 c . . . 
+. c 1 1 1 1 1 1 1 1 1 1 1 1 b 9 9 9 9 9 9 c . . 
+f 1 1 1 c c c c c c c 1 1 1 b b b b b b b 1 c . 
+f f f f f c c c 1 1 1 c 1 1 1 1 1 1 1 1 1 1 1 f 
+. . . c c c 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 f 
+. . . c 1 1 1 1 1 1 f 1 1 1 1 1 1 1 1 1 1 1 f . 
+. . . c 1 1 1 1 1 f f f f 1 1 1 1 1 1 1 f f . . 
+. . . . c c c c f . . . . f f f f f f f . . . . 
 `;
         }
         return null;
